@@ -40,6 +40,24 @@ a {
     right: 0;
 }
 
+#parent{
+    background-color: #99ff99;
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+
+#absolute{
+    position: absolute;
+    top: calc(50% - 25px);
+    left: 250px;
+}
+
 p{
     font-size: 32px;
+}
+
+#sticky{
+    position: sticky;
+    top:0;
 }
