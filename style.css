@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+section{
+    height: 50px;
+    width: 100px;
+    background-color: green;
+    margin: 12px 0;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 17px;
+}
+
+/*static position is default. The element takes up the standard space that it would in the normal flow of the website*/
+
+#relative{
+    position: relative;
+    left: 60px;
+    top: 800px;
+}
+
+#fixed{
+    position: fixed;
+    top: calc(50vh - 25px);
+    left: calc(50% - 50px);
+}
+
+a {
+    display: block;
+    position: fixed;
+    width: 250px;
+    height: 75px;
+    border-radius: 16px;
+    background-color: #99ff99;
+    text-align: center;
+    padding-top: 25px;
+    bottom: 0;
+    right: 0;
+}
+
+p{
+    font-size: 32px;
+}
